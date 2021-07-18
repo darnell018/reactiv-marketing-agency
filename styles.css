@@ -59,8 +59,7 @@ header nav button:hover {
   color: #ffffff;
   text-align: center;
 }
-
-footer {
+.ft-ctn-bottom {
   background-color: #0D1821;
   color: #ffffff;
   display: flex;
@@ -206,10 +205,11 @@ footer .text-changer span {
     max-width: 1300px;
   }
 
-  footer {
+  .ft-ctn-bottom {
     flex-direction: row;
-    justify-content: space-around;
-    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
   }
   
 }
