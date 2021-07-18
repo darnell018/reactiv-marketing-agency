@@ -6,8 +6,8 @@ function textChanger () {
 
   var replaceText = document.getElementsByClassName('textChanger')[0].innerHTML;
 
-  console.log(thing)
-  console.log(replaceText)
+  // console.log(thing)
+  // console.log(replaceText)
 
   document.getElementsByClassName('textChanger')[0].innerHTML = thing
 }
@@ -17,6 +17,6 @@ function textChanger () {
 // document.addEventListener('DOMContentLoaded', textChanger());
 
 
-// setInterval(function () {
-//   textChanger()
-// }, 750)
+setInterval(function () {
+  textChanger()
+}, 1000)
