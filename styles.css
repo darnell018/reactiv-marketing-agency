@@ -18,6 +18,7 @@ header{
 header img {
   height: 24px;
   margin: 18px 25px;
+  z-index: 1000000;
 }
 
 header nav ul {
@@ -33,6 +34,7 @@ header nav button {
   top: 0;
   right: 0;
   padding: 18px;
+  z-index: 10000000;
 }
 
 header nav button:focus {
@@ -87,6 +89,55 @@ footer .text-changer span {
   text-decoration: underline;
   text-decoration-color: #ffffff;
   color: #DBFF76;
+}
+
+
+.hamburger.active:before {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.hamburger.active:after {
+  transform: rotate(45deg) translate(-6px, -7px);
+}
+
+.hamburger.active .bar {
+  opacity: 0;
+}
+
+.mobile-nav {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  display: block;
+  background-color: #0D1821;
+  min-height: 100vh;
+  transition: 0.4s;
+  padding-top: 120px;
+}
+
+.mobile-nav li {
+  list-style-type: none;
+}
+
+.mobile-nav a {
+  display: block;
+  text-align: center;
+  margin: 0 auto 16px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 3em;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+.mobile-nav a:hover {
+  background: linear-gradient(66.74deg, #DBFF76 0%, #49BEAA 100%);
+  transition: .5s;
+}
+
+.mobile-nav.active {
+  left: 0;
 }
 
 
