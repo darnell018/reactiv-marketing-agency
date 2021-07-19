@@ -29,7 +29,7 @@
 
   <body>
     <header>
-      <img src="img/reactiv-white.png" alt="REACTIV" title="REACTIV">
+      <a href="index.html"><img src="img/reactiv-white.png" alt="REACTIV" title="REACTIV"></a>
       <nav>
         <button class="mobile-menu-bttn" id="mobile-menu-bttn">menu</button>
 
@@ -51,7 +51,11 @@
       </nav>
     </header>
 
-    <main>
+    <section class="hero expertise-hero d-flex justify-content-center align-items-center">
+      <h1>hero text title.</h1>
+    </section>
+
+    <main class="temp-height">
 
 
     </main>
@@ -71,29 +75,8 @@
 
     <!-- Scripts -->
     <script src="project-text-change.js"></script>
-    <!-- <script>
-            // current page highlight
-
-            // link color code starts
-              $(document).ready(function () {
-                console.log("current page", window.location.href);
-                $("index.html").each(function () {
-                  $('a[href]:not(index.html)').each(function () {
-
-                    if (window.location.href.indexOf($(this).attr('href')) > -1) {
-                      console.log($(this).attr('href') + " is active ");
-                      $(this).addClass('active');
-                    }
-                    else {
-                      console.log($(this).attr('href') + "is not active ");
-                    }
-                  });
-                });
-              });
-              // link color code ends
-
-          </script> -->
     <script src="mobile-nav.js"></script>
+    <script src="nav-current.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

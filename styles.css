@@ -53,12 +53,40 @@ header nav button:hover {
   padding: 5%;
 }
 
-.video-hero h1 {
+.video-hero h1, .hero h1 {
   font-weight: 800;
   font-size: 3.5em;
   color: #ffffff;
   text-align: center;
 }
+
+.hero {
+  height: 25vh;
+  font-size: .8em;
+  margin: 80px 20px 20px;
+  padding: 5%;
+}
+
+.about-hero {
+  background: #F4AE45;
+}
+
+.expertise-hero {
+  background: #FC7F7F;
+}
+
+.work-hero {
+  background: #6ECBE9;
+}
+
+.contact-hero {
+  background: #49BEAA;
+}
+
+.temp-height {
+  height: 80vh;
+}
+
 .ft-ctn-bottom {
   background-color: #0D1821;
   color: #ffffff;
@@ -126,7 +154,7 @@ footer img {
   margin: 0 auto 16px;
   text-decoration: none;
   font-weight: 800;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #ffffff;
   padding: 30px 0;
 }
@@ -145,8 +173,6 @@ footer img {
 
 /* TABLET Media Sizing */
 @media (min-width: 800px) {
-  
-
   header nav ul {
     display: flex;
     list-style: none;
@@ -177,8 +203,12 @@ footer img {
     text-decoration: none;
   }
 
-  header nav ul li a:hover, .current-pg-active {
+  header nav ul li a:hover, .current {
     background: linear-gradient(66.74deg, #DBFF76 0%, #49BEAA 100%);
+  }
+
+  .current {
+    color: #0D1821;
   }
 
   header nav button {
@@ -186,10 +216,15 @@ footer img {
     
   }
 
-  .video-hero h1 {
+  .hero {
+    height: 50vh;
+  }
+
+  .video-hero h1, .hero h1 {
     font-size: 5.5em;
     max-width: 1200px;
   }
+
 
 }
 
@@ -200,7 +235,7 @@ footer img {
     height: 83vh;
   }
 
-  .video-hero h1 {
+  .video-hero h1, .hero h1 {
     font-size: 6.5em;
     max-width: 1300px;
   }
