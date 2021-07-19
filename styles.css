@@ -74,18 +74,18 @@ footer img {
   margin: 25px 0;
 }
 
-footer p {
+.ft-ctn-bottom p {
   font-size: 10px;
   text-align: center;
 }
 
-footer .text-changer p {
+.ft-ctn-bottom .text-changer p {
   font-weight: 700;
   font-size: 14px;
 }
 
 
-footer .text-changer span {
+.ft-ctn-bottom .text-changer span {
   text-decoration: underline;
   text-decoration-color: #ffffff;
   color: #DBFF76;
