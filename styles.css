@@ -46,7 +46,7 @@ header nav button:hover {
 }
 
 .video-hero {
-  height: 80vh;
+  height: 85vh;
   background: url('img/reactiv-home.jpg') no-repeat center;
   background-size: cover;
   margin: 80px 20px 20px;
@@ -56,7 +56,7 @@ header nav button:hover {
 .video-hero h1, .hero h1 {
   font-weight: 800;
   font-size: 3.5em;
-  color: #ffffff;
+  color: #0D1821;
   text-align: center;
 }
 
@@ -169,6 +169,23 @@ footer img {
 }
 
 
+.coming-soon-cta {
+    background: #DBFF76;
+    margin: 0 20px 20px;
+    padding: 10% 5%;
+    color: #0D1821;
+    text-align: center;
+}
+
+.coming-soon-cta h2 {
+  font-weight: 800;
+  text-transform: lowercase;
+}
+
+
+footer a {
+  color: #DBFF76;
+}
 
 
 /* TABLET Media Sizing */
@@ -232,7 +249,7 @@ footer img {
 @media (min-width: 1080px) {
 
   .video-hero {
-    height: 83vh;
+    /* height: 85vh; */
   }
 
   .video-hero h1, .hero h1 {
@@ -245,6 +262,10 @@ footer img {
     justify-content: space-between;
     align-items: center;
     padding: 25px;
+  }
+
+  .coming-soon-cta h2 {
+    font-size: 4em;
   }
   
 }
