@@ -170,11 +170,28 @@ footer img {
 
 
 .coming-soon-cta {
-    background: #DBFF76;
+    background: #6ECBE9;
     margin: 0 20px 20px;
     padding: 10% 5%;
     color: #0D1821;
     text-align: center;
+}
+
+.cta-dark {
+  background: #0D1821;
+  color: #ffffff;
+}
+
+.cta-dark a{
+  color: #DBFF76;
+  text-decoration: underline;
+  transition: .5s;
+}
+
+.cta-dark a:hover {
+  color: #FC7F7F;
+  text-decoration: underline;
+  transition: .5s;
 }
 
 .coming-soon-cta h2 {
